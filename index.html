@@ -9,10 +9,12 @@
     <script src="https://kit.fontawesome.com/fbf4810423.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <header class="sticky top-0 left-0 w-full bg-gray-900 text-white z-30 shadow-md p-4">
+<body class="overflow-x-hidden">
+    <!-- sticky top-0 left-0 -->
+    <header class=" w-full bg-gray-900 text-white z-30 shadow-md p-4">
 
         <nav class="flex justify-around items-center ">
+            <!-- logo -->
             <div class="flex flex-col items-center relative bottom-5">
                 <div class="flex relative top-10">
                     <div class="bg-white rounded-full w-8 h-8 mb-1"></div>
@@ -24,7 +26,7 @@
                     <span class="text-green-500">Shop</span>
                 </p>
             </div>
-
+            <!-- navigation links -->
             <div>
                 <ul class="flex gap-8 items-center">
                     <li><a href="#" class="hover:text-cyan-400">Home</a></li>
@@ -48,8 +50,8 @@
         </nav>
 
         <div class="relative left-52 ml-44 w-96">
-            <input type="text" placeholder="Search" class="w-full h-12 bg-gray-800 text-white rounded-full pl-5">
-            <i class="fa-solid fa-magnifying-glass ml-[-2.5rem] text-gray-400 relative bottom-9 left-96"></i>
+            <input type="text" placeholder="Search" class="w-full h-12 bg-gray-800 text-white rounded-full pl-10">
+            <i class="fa-solid fa-magnifying-glass m text-gray-400 relative bottom-9 left-80"></i>
         </div>
 
     </header>
@@ -73,7 +75,7 @@
         <!-- page1 -->
         <section>
             <div class="mt-20 ">
-                <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Features</h2>
+                <h2 class="text-3xl font-medium text-gray-900 mb-12 text-center">Features</h2>
                 <div class="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-7 mr-28 ml-28 ">
 
                     <div class="w-56 h-56 bg-white shadow-xl rounded-2xl p-6">
@@ -116,8 +118,8 @@
 
         <section>
             <div>
-                <h4 class="text-4xl font-bold text-gray-900 text-center mt-10 ">Best Sellers</h4>
-                <div class="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 mt-10 ml-9 mr-9">
+                <h4 class="text-3xl font-medium text-gray-900 text-center mt-24 ">Best Sellers</h4>
+                <div class="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 w-xs mt-8 ml-9 mr-9">
 
                     <div class=" bg-white  p-7 ml-4 text-center">
                         <img class="w-60 h-56 object-contain" src="./public/images/10933.jpg" alt="product 1">
@@ -192,33 +194,59 @@
         </section>
 
 
+
+        <!-- <p>We are the leading smart watch brand in Nigeria, <br> with over 3000 watches sold in 5 years and
+                        over a thousand satisfied customers. <Br>Our qualuty is topnotch and our watches durable and
+                        longasting, has the longest battery life and supports you completely.</Br></p> -->
+
         <!-- why? -->
         <section>
-            <div>
 
+            <h2 class="text-3xl font-medium text-gray-900 text-center mt-24 ">Why buy from us?</h2>
 
-                <h2>Why buy from us?</h2>
+            <div class="flex justify-center gap-5 text-center mt-10 mb-10">
+                <div class="bg-gray-100 rounded-2xl p-5 ml-28 w-64">
 
-                <div>
-                    <p>We are the leading smart watch brand in Nigeria, <br> with over 3000 watches sold in 5 years and
-                        over a thousand satisfied customers. <Br>Our qualuty is topnotch and our watches durable and
-                        longasting, has the longest battery life and supports you completely.</Br></p>
+                    <i class="fa-solid fa-truck-fast mt-3"></i>
+                    <h4 class="font-medium text-sm m-2">Free shipping</h4>
+
+                    <p class="text-xs">Fast and reliable free delivery on all<br> smartwatch orders above #100,000.</p>
+                </div>
+
+                <div class="bg-gray-100 rounded-2xl p-5 ml-5 w-64">
+
+                    <i class="fa-solid fa-shield mt-3"></i>
+
+                    <h4 class="font-medium text-sm m-2">One year warranty</h4>
+
+                    <p class="text-xs">Every smartwatch comes with a full warranty <br> for peace of mind.</p>
                 </div>
 
 
+                <div class="bg-gray-100 rounded-2xl p-5 ml-5 w-64">
+                    <i class="fa-solid fa-lock mt-3"></i>
+                    <h4 class="font-medium text-sm m-2">Secured payments</h4>
 
+                    <p class="text-xs">Your payments are protected with industry- <br>standard security.</p>
+                </div>
+
+
+                <div class="bg-gray-100 rounded-2xl p-5 ml-5 mr-28 w-64">
+                    <i class="fa-solid fa-headset mt-3"></i>
+                    <h4 class="font-medium text-sm m-2">24/7 Customer Support</h4>
+
+                    <p class="text-xs">Our team is always ready to help with your <br> questions.</p>
+                </div>
             </div>
 
+
         </section>
-
-
-
 
 
         <!-- testomnials -->
         <section>
             <div>
-                <h2 class="text-4xl font-bold text-gray-900 text-center mt-20 ">Hear from Our Customers</h2>
+                <h2 class="text-3xl font-medium text-gray-900 text-center mt-28  ">Hear from Our Customers</h2>
 
                 <div class="grid md:grid-cols-3 sm:grid-cols-1 ml-40 gap-4 mt-10 mb-5 h-52 mr-40 ">
                     <div class="bg-gray-100 text-center rounded-3xl">
@@ -240,8 +268,8 @@
                     </div>
 
                     <div class="bg-gray-100 text-center rounded-3xl">
-                        <img class="w-10 h-10 rounded-full ml-32 mt-3" src="../public/images/close-up-smiley-man-with-glasses.jpg"
-                            alt="customer-2">
+                        <img class="w-10 h-10 rounded-full ml-32 mt-3"
+                            src="../public/images/close-up-smiley-man-with-glasses.jpg" alt="customer-2">
 
                         <div class=" flex text-yellow-300 mt-3 ml-24">
                             <i class="fa-solid fa-star"></i>
@@ -252,7 +280,7 @@
                         </div>
                         <h4 class="font-medium text-sm mt-4">Dan David - Product Designer</h4>
                         <p class="text-xs">"I love how sleek and comfortable the <br> watch is. The battery life is
-                           <br> incredible too."
+                            <br> incredible too."
                         </p>
                     </div>
 
@@ -278,87 +306,100 @@
             </div>
 
         </section>
-
-
-
-
-
     </main>
 
 
 
+    <footer class="bg-gray-800 text-white mt-12 pb-5">
+
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 ">
+            <div class="flex flex-col items-center relative bottom-5">
+                <div class="flex relative top-10">
+                    <div class="bg-white rounded-full w-8 h-8 mb-1"></div>
+                    <div class="bg-white rounded-full w-10 h-10 mb-1"></div>
+                </div>
+                <p class="text-sm font-bold relative z-10">
+                    <span class="text-red-500">The</span>
+                    <span class="text-black">Smart</span>
+                    <span class="text-green-500">Shop</span>
+                </p>
+                <!-- <span class="text-sm mt-4 ">Premium smartwatches for <br> modern lifestyles.</span> -->
+            </div>
+            <div>
+                <h4 class="font-medium mt-3 mb-3 underline">Quick Links</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-cyan-400">Home</a></li>
+                    <li><a href="#" class="hover:text-cyan-400 ">Our Products</a></li>
+                    <li><a href="#" class="hover:text-cyan-400 ">About MySmart Shop</a></li>
+                    <li><a href="#" class="hover:text-cyan-400 ">Career</a></li>
+                </ul>
+            </div>
 
 
+            <div>
+                <h4 class="font-medium mt-3 mb-3 underline">Help Center</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-cyan-400">How to order</a></li>
+                    <li><a href="#" class="hover:text-cyan-400">Refunds</a></li>
+                    <li><a href="#" class="hover:text-cyan-400">Returns</a></li>
+                    <li><a href="#" class="hover:text-cyan-400 ">Shipping Information</a></li>
+                    <li><a href="#" class="hover:text-cyan-400 ">Returns and Refunds</a></li>
+                    <li><a href="#" class="hover:text-cyan-400 ">Waranty</a></li>
+                </ul>
+            </div>
+
+            <div class="mr-28">
+
+                <h4 class="font-medium mt-3 mb-3 underline">Get in Touch</h4>
+
+                <span class=" flex gap-3 items-center">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>shop@thesmartshop.com</p>
+                </span>
+                <span class=" flex gap-3 items-center">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>08123456789</p>
+                </span>
+                <span class=" flex gap-3 items-center">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>No. 123, ABC street, Jos, Nigeria</p>
+                </span>
+
+                <div class="flex justify-centera items-center  gap-4 mt-5">
+                    <p>Find us on;</p>
+                    <div class="mt-1"> <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-solid fa-x"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
 
 
-
-
-    <footer class="bg-gray-800 text-white">
-
-        <div>
-            <p>Find us on;</p>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-solid fa-x"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
 
         </div>
 
-        <div>
-            <ul class="flex gap-8 items-center">
-                <li><a href="#" class="hover:text-cyan-400">Home</a></li>
-                <li><a href="#" class="hover:text-cyan-400 ">Our Products</a></li>
-                <li><a href="#" class="hover:text-cyan-400 ">About MySmart Shop</a></li>
-                <li><a href="#" class="hover:text-cyan-400 ">Career</a></li>
-            </ul>
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-20 mt-5">
+
+            <div class="w-8 flex items-center gap-2 justify-center relative left-36">
+                <img src="./public/images/master.webp" alt="master">
+                <img src="./public/images/visa.webp" alt="visa">
+                <img src="./public/images/opay.webp" alt="opay">
+            </div>
+
+            <div class=" ml-36">
+
+                <div class="flex justify-center items-center gap-2 ml-12">
+                    <p class="text-sm">Privacy Policy</p>
+                    <span>/</span>
+                    <p class="text-sm">Terms and condition</p>
+                </div>
+
+            </div>
         </div>
+<div class="text-center mt-12 mb-5">
+        <p class="text-xs italic mr-12">© 2026 The Smart Shop</p>
 
-
-        <div>
-            <p>Help Center</p>
-            <ul class="flex gap-8 items-center">
-                <li><a href="#" class="hover:text-cyan-400">How to order</a></li>
-                <li><a href="#" class="hover:text-cyan-400">Refunds</a></li>
-                <li><a href="#" class="hover:text-cyan-400">Returns</a></li>
-                <li><a href="#" class="hover:text-cyan-400 ">Shipping Information</a></li>
-                <li><a href="#" class="hover:text-cyan-400 ">Returns and Refunds</a></li>
-                <li><a href="#" class="hover:text-cyan-400 ">Waranty</a></li>
-            </ul>
-        </div>
-
-        <div>
-            customer Support
-            <h4>Contact</h4>
-            <p>shop@thesmartshop.com</p>
-            <p>08123456789</p>
-
-        </div>
-
-
-        <div>
-            <p>© 2026 The Smart Shop</p>
-            <p>Privacy Policy</p>
-            <p>Terms and condition</p>
-        </div>
-
-
-        </div>
-
-
-        <div>
-            <h4>Payments Methods</h4>
-
-            <img src="./public/images/master.webp" alt="master">
-            <img src="./public/images/visa.webp" alt="visa">
-            <img src="./public/images/opay.webp" alt="opay">
-
-        </div>
-
-
-        </div>
-
-
-
-
+</div>
     </footer>
 
 
